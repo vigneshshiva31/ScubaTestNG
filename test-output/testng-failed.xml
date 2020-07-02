@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="5" name="Test(failed)" parallel="classes">
+    <parameter name="a" value="54"/>
+    <parameter name="b" value="20"/>
+    <parameter name="x" value="50"/>
+    <parameter name="y" value="12"/>
+    <classes>
+      <class name="testngassignment.Testngwithoutparam">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="addition" invocation-numbers="0"/>
+          <include name="startbrowser"/>
+        </methods>
+      </class> <!-- testngassignment.Testngwithoutparam -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

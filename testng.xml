@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="5">
+	<groups>
+		<run>
+			<include name="ADDITION"></include>
+			<include name="SUBTRACTION"></include>
+			<include name="MULTIPLICATION"></include>
+			<include name="DIVISION"></include>
+			<include name="MODULUS"></include>
+			<include name="OPERATIONS"></include>
+			<exclude name="NEGATION"></exclude>
+			<exclude name="INVERSE"></exclude>
+		</run>
+	</groups>
+	<parameter name="x" value="50"></parameter>
+	<parameter name="y" value="12"></parameter>
+	<parameter name="a" value="54"></parameter>
+	<parameter name="b" value="20"></parameter>
+	<test name="Test">
+		 <classes>
+           <class name="testngassignment.Dataprovider"/>
+           <class name="testngassignment.Testparameters"/>
+           
+    </classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

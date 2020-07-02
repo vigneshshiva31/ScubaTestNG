@@ -1,0 +1,199 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 02 01:09:24 PDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (484 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testngassignment.Testparameters.addition()'><b>addition</b><br>Test class: testngassignment.Testparameters<br>Parameters: 54, 20<br/>
+<a href="#Output-550508561" onClick='toggleBox("Output-550508561", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-550508561" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-550508561">
+TestNG_ReportsAndLogs -> Addition<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testngassignment.Testparameters@26be92ad</td></tr>
+<tr>
+<td title='testngassignment.Testparameters.division()'><b>division</b><br>Test class: testngassignment.Testparameters<br>Parameters: 54, 20<br/>
+<a href="#Output-1736863373" onClick='toggleBox("Output-1736863373", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1736863373" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1736863373">
+TestNG_ReportsAndLogs -> Division<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testngassignment.Testparameters@26be92ad</td></tr>
+<tr>
+<td title='testngassignment.Dataprovider.inverse()'><b>inverse</b><br>Test class: testngassignment.Dataprovider<br>Parameters: 54<br/>
+<a href="#Output-1552626104" onClick='toggleBox("Output-1552626104", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1552626104" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1552626104">
+TestNG_ReportsAndLogs -> inverse<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testngassignment.Dataprovider@1d057a39</td></tr>
+<tr>
+<td title='testngassignment.Dataprovider.mod()'><b>mod</b><br>Test class: testngassignment.Dataprovider<br>Parameters: 54, 20<br/>
+<a href="#Output-1915998497" onClick='toggleBox("Output-1915998497", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1915998497" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1915998497">
+TestNG_ReportsAndLogs -> Modulation<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testngassignment.Dataprovider@1d057a39</td></tr>
+<tr>
+<td title='testngassignment.Testparameters.multiplication()'><b>multiplication</b><br>Test class: testngassignment.Testparameters<br>Parameters: 50, 12<br/>
+<a href="#Output-2025276396" onClick='toggleBox("Output-2025276396", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2025276396" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2025276396">
+TestNG_ReportsAndLogs -> Multiplication<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testngassignment.Testparameters@26be92ad</td></tr>
+<tr>
+<td title='testngassignment.Dataprovider.negate()'><b>negate</b><br>Test class: testngassignment.Dataprovider<br>Parameters: 54<br/>
+<a href="#Output-1999644718" onClick='toggleBox("Output-1999644718", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1999644718" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1999644718">
+TestNG_ReportsAndLogs -> Negation<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testngassignment.Dataprovider@1d057a39</td></tr>
+<tr>
+<td title='testngassignment.Dataprovider.squareRoot()'><b>squareRoot</b><br>Test class: testngassignment.Dataprovider<br>Parameters: 3, 8<br/>
+<a href="#Output-175427690" onClick='toggleBox("Output-175427690", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-175427690" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-175427690">
+TestNG_ReportsAndLogs -> operations<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testngassignment.Dataprovider@1d057a39</td></tr>
+<tr>
+<td title='testngassignment.Dataprovider.squareRoot()'><b>squareRoot</b><br>Test class: testngassignment.Dataprovider<br>Parameters: 12, 16<br/>
+<a href="#Output-1443324561" onClick='toggleBox("Output-1443324561", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1443324561" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1443324561">
+TestNG_ReportsAndLogs -> operations<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testngassignment.Dataprovider@1d057a39</td></tr>
+<tr>
+<td title='testngassignment.Dataprovider.squareRoot()'><b>squareRoot</b><br>Test class: testngassignment.Dataprovider<br>Parameters: 29, 40<br/>
+<a href="#Output-1500763806" onClick='toggleBox("Output-1500763806", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1500763806" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1500763806">
+TestNG_ReportsAndLogs -> operations<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testngassignment.Dataprovider@1d057a39</td></tr>
+<tr>
+<td title='testngassignment.Testparameters.sub()'><b>sub</b><br>Test class: testngassignment.Testparameters<br>Parameters: 54, 20<br/>
+<a href="#Output-1891573594" onClick='toggleBox("Output-1891573594", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1891573594" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1891573594">
+TestNG_ReportsAndLogs -> Subtraction<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testngassignment.Testparameters@26be92ad</td></tr>
+</table><p>
+</body>
+</html>

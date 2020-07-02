@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="10" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Modulation]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Addition]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Multiplication]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Subtraction]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> operations]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> operations]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> operations]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="412" started-at="2020-07-02T08:20:07Z" finished-at="2020-07-02T08:20:08Z">
+    <groups>
+      <group name="MODULUS">
+        <method signature="Dataprovider.mod(int, int)[pri:0, instance:testngassignment.Dataprovider@55ca8de8]" name="mod" class="testngassignment.Dataprovider"/>
+      </group> <!-- MODULUS -->
+      <group name="MULTIPLICATION">
+        <method signature="Testparameters.multiplication(int, int)[pri:0, instance:testngassignment.Testparameters@2c34f934]" name="multiplication" class="testngassignment.Testparameters"/>
+      </group> <!-- MULTIPLICATION -->
+      <group name="OPERATIONS">
+        <method signature="Dataprovider.squareRoot(int, int)[pri:0, instance:testngassignment.Dataprovider@55ca8de8]" name="squareRoot" class="testngassignment.Dataprovider"/>
+      </group> <!-- OPERATIONS -->
+      <group name="ADDITION">
+        <method signature="Testparameters.addition(int, int)[pri:0, instance:testngassignment.Testparameters@2c34f934]" name="addition" class="testngassignment.Testparameters"/>
+      </group> <!-- ADDITION -->
+      <group name="SUBTRACTION">
+        <method signature="Testparameters.sub(int, int)[pri:0, instance:testngassignment.Testparameters@2c34f934]" name="sub" class="testngassignment.Testparameters"/>
+      </group> <!-- SUBTRACTION -->
+    </groups>
+    <test name="Test" duration-ms="412" started-at="2020-07-02T08:20:07Z" finished-at="2020-07-02T08:20:08Z">
+      <class name="testngassignment.Dataprovider">
+        <test-method status="PASS" signature="mod(int, int)[pri:0, instance:testngassignment.Dataprovider@55ca8de8]" name="mod" duration-ms="69" started-at="2020-07-02T08:20:07Z" finished-at="2020-07-02T08:20:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[54]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Modulation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mod -->
+        <test-method status="PASS" signature="squareRoot(int, int)[pri:0, instance:testngassignment.Dataprovider@55ca8de8]" name="squareRoot" duration-ms="8" started-at="2020-07-02T08:20:08Z" data-provider="operations" finished-at="2020-07-02T08:20:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> operations]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- squareRoot -->
+        <test-method status="PASS" signature="squareRoot(int, int)[pri:0, instance:testngassignment.Dataprovider@55ca8de8]" name="squareRoot" duration-ms="28" started-at="2020-07-02T08:20:08Z" data-provider="operations" finished-at="2020-07-02T08:20:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> operations]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- squareRoot -->
+        <test-method status="PASS" signature="squareRoot(int, int)[pri:0, instance:testngassignment.Dataprovider@55ca8de8]" name="squareRoot" duration-ms="4" started-at="2020-07-02T08:20:08Z" data-provider="operations" finished-at="2020-07-02T08:20:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> operations]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- squareRoot -->
+      </class> <!-- testngassignment.Dataprovider -->
+      <class name="testngassignment.Testparameters">
+        <test-method status="PASS" signature="addition(int, int)[pri:0, instance:testngassignment.Testparameters@2c34f934]" name="addition" duration-ms="76" started-at="2020-07-02T08:20:07Z" finished-at="2020-07-02T08:20:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[54]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Addition]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addition -->
+        <test-method status="PASS" signature="multiplication(int, int)[pri:0, instance:testngassignment.Testparameters@2c34f934]" name="multiplication" duration-ms="16" started-at="2020-07-02T08:20:07Z" finished-at="2020-07-02T08:20:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Multiplication]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- multiplication -->
+        <test-method status="PASS" signature="sub(int, int)[pri:0, instance:testngassignment.Testparameters@2c34f934]" name="sub" duration-ms="16" started-at="2020-07-02T08:20:08Z" finished-at="2020-07-02T08:20:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[54]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Subtraction]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sub -->
+      </class> <!-- testngassignment.Testparameters -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
